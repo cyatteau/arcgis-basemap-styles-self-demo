@@ -6,6 +6,8 @@ This repository contains the source code for the [ArcGIS Basemap Styles self dem
 
 During the Day 1 plenary session's Open Development segment, the demo showcased how to interact with the self describing endpoint of the basemap styles service. This endpoint provides comprehensive, machine-readable details about the service, facilitating innovative and efficient application development.
 
+![GIF](https://github.com/cyatteau/arcgis-basemap-styles-self-demo/assets/112517097/cc46ae97-4e90-4515-a945-9c9b437db519)
+
 ## Features
 
 - **Self Describing Endpoint**: Utilizes the [new self describing endpoint](https://developers.arcgis.com/rest/basemap-styles/service-self-get/) for the basemap styles service.

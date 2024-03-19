@@ -1,6 +1,6 @@
 # ArcGIS Basemap Styles Self Demo
 
-This repository contains the source code for the ArcGIS Basemap Styles self demo presented at the Esri Developer Summit 2024. The demo highlights how to utilize the self describing endpoint of the ArcGIS Basemap Styles service, allowing developers to dynamically access and implement the latest basemap styles and features.
+This repository contains the source code for the [ArcGIS Basemap Styles self demo](https://mediaspace.esri.com/media/t/1_vppznt3r?st=112) presented at the Esri Developer Summit 2024. The demo highlights how to utilize the self describing endpoint of the ArcGIS Basemap Styles service, allowing developers to dynamically access and implement the latest basemap styles and features.
 
 ## Demo Overview
 

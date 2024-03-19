@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basemap Styles Self Operation</title>
+    <!-- MapLibre GL JS CSS -->
+    <script src="https://unpkg.com/maplibre-gl@3.2.1/dist/maplibre-gl.js"></script>
+    <link
+      href="https://unpkg.com/maplibre-gl@3.2.1/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@esri/arcgis-rest-request@4.0.0/dist/bundled/request.umd.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-places@1.0.0/dist/bundled/places.umd.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@esri/calcite-components/dist/calcite/calcite.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@esri/calcite-components/dist/calcite/calcite.esm.js"
+    ></script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div>Basemap Styles Service - Self Operation</div>
+    </div>
+    <calcite-shell class="shell">
+      <div id="side-panel">
+        <div class="basemap-options">Basemap Options</div>
+        <span class="span-title-styles">Styles</span>
+        <calcite-container id="card-container">
+          <!-- Basemap styles will be added here -->
+        </calcite-container>
+        <calcite-label scale="m"
+          ><span class="span-title">Languages</span>
+          <calcite-select id="language-picker" scale="m">
+            <!-- Language options will be added here -->
+          </calcite-select>
+        </calcite-label>
+        <calcite-label
+          ><span class="span-title">Places</span>
+          <calcite-select id="places-picker" scale="m">
+            <!-- Place options will be added here -->
+          </calcite-select>
+        </calcite-label>
+      </div>
+    </calcite-shell>
+
+    <div id="map-container">
+      <div id="map"></div>
+    </div>
+    <script src="/scripts.js"></script>
+    <script></script>
+  </body>
+</html>

@@ -8,7 +8,7 @@ During the Day 1 plenary session's Open Development segment, the demo showcased 
 
 ## Features
 
-- **Self Describing Endpoint**: Utilizes the new self describing endpoint for the basemap styles service.
+- **Self Describing Endpoint**: Utilizes the [new self describing endpoint](https://developers.arcgis.com/rest/basemap-styles/service-self-get/) for the basemap styles service.
 - **Dynamic Basemap Styles**: Dynamically generates basemap style options based on the service's output.
 - **Language and Place Customization**: Offers options to change basemap language and place settings, reflecting real-time service updates.
 - **Interactive Map**: Features an interactive map centered on Athens, Greece, built with Calcite components and MapLibre GL JS.
